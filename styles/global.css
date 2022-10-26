@@ -6,30 +6,26 @@
 }
 
 body {
-    font-family: var(--primary-font);
-    background: var(--background);
     display: grid;
-    grid-template-rows: auto 1fr;
 }
 
 header {
-    position: sticky;
-    top: 0;
-    padding: 15px;
-    height: 80px;
-
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
-    background-color: var(--header-background);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    background: gold;
+    height: 50px;
 }
 
-header .logo {
-    height: 100%;
+#hero-image {
+    background: red;
 }
 
-main {
-    padding: 20px;
+#menu {
+    background: red;
+}
+
+#recs {
+    background: red;
+}
+
+#item-list {
+    background: red;
 }
