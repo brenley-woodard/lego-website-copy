@@ -1,39 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <!-- metadata -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- title and favicon -->
+        <title>Web App</title>
+        <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
 
-    <!-- title and favicon -->
-    <title>Web App</title>
-    <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
+        <!-- js -->
+        <script type="module" src="app.js"></script>
 
-    <!-- js -->
-    <script type="module" src="app.js"></script>
+        <!-- fonts -->
+        <!-- see https://fonts.google.com/ -->
 
-    <!-- fonts -->
-    <!-- see https://fonts.google.com/ -->
+        <!-- css -->
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/global.css" />
+        <!-- add link for page specific css -->
+    </head>
 
-    <!-- css -->
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <!-- add link for page specific css -->
+    <body>
+        <header>
+            <img src="./assets/lego-image.png" alt="lego-image" id="lego-image" />
+            <div id="navigate">
+                <button>shop</button>
+                <button>discover</button>
+                <button>help</button>
+            </div>
+            <div id="user-options">
+                <button>search</button>
+                <button>favorites</button>
+                <button>bag</button>
+            </div>
+        </header>
 
-</head>
-
-<body>
-    <header>
-        <img class="logo" src="assets/html_css_js.png" alt="logo">
-        <h1>Web App</h1>
-    </header>
-
-    <main>
-
-    </main>
-
-</body>
-
+        <main>
+            <section id="hero-image">
+                <h2>Build a playful holiday</h2>
+                <p>Shop for gifts now and don't miss out on sets you know they'll love.</p>
+                <div>
+                    <button>Shop now ></button>
+                    <button>Discover ></button>
+                </div>
+            </section>
+            <section id="menu">
+                <ul id="menu-items">
+                    <div>
+                        <img src="assets/new.png" alt="" />
+                        <figcaption>New</figcaption>
+                    </div>
+                    <div>
+                        <img src="assets/exclusives.png" alt="" />
+                        <figcaption>Exclusives</figcaption>
+                    </div>
+                    <div>
+                        <img src="assets/offers.png" alt="" />
+                        <figcaption>Offers</figcaption>
+                    </div>
+                    <div>
+                        <img src="assets/masters.png" alt="" />
+                        <figcaption>LEGO Masters</figcaption>
+                    </div>
+                    <div>
+                        <img src="assets/holiday.png" alt="" />
+                        <figcaption>Holiday Decor</figcaption>
+                    </div>
+                    <div>
+                        <img src="assets/starwars.png" alt="" />
+                        <figcaption>Star Wars</figcaption>
+                    </div>
+                    <div>
+                        <img src="assets/comingsoon.png" alt="" />
+                        <figcaption>Coming Soon</figcaption>
+                    </div>
+                    <div>
+                        <img src="assets/vip.png" alt="" />
+                        <figcaption>VIP</figcaption>
+                    </div>
+                </ul>
+            </section>
+            <section id="recs">Recommended For You</section>
+            <section id="item-section">
+                <ul id="lego-items">
+                    <li><img src="assets/town.png" alt="" class="item" /></li>
+                    <li><img src="assets/tree.png" alt="" class="item" /></li>
+                    <li><img src="assets/lighthouse.png" alt="" class="item" /></li>
+                    <li><img src="assets/advent.png" alt="" class="item" /></li>
+                </ul>
+            </section>
+        </main>
+    </body>
 </html>
