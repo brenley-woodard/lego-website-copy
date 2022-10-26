@@ -43,3 +43,15 @@ main {
 #item-section {
     background: rgb(255, 123, 0);
 }
+
+#lego-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 5px;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+}
