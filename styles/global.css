@@ -7,25 +7,39 @@
 
 body {
     display: grid;
+    grid-template-rows: 50px 1fr;
 }
 
 header {
     background: gold;
-    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#user-options {
+}
+
+main {
+    display: grid;
+    grid-template-rows: 33% 20% 7% 40%;
 }
 
 #hero-image {
-    background: red;
+    background: rgb(87, 237, 235);
 }
 
 #menu {
-    background: red;
+    background: rgb(170, 238, 110);
+}
+#menu-items {
+    display: flex;
+    justify-content: space-around;
 }
 
 #recs {
-    background: red;
+    background: rgb(234, 93, 198);
 }
 
-#item-list {
-    background: red;
+#item-section {
+    background: rgb(255, 123, 0);
 }
