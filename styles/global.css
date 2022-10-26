@@ -25,11 +25,11 @@ main {
 }
 
 #hero-image {
-    background: rgb(87, 237, 235);
+    background: rgb(74, 199, 197);
 }
 
 #menu {
-    background: rgb(170, 238, 110);
+    background: rgb(255, 255, 255);
 }
 #menu-items {
     display: flex;
@@ -37,11 +37,11 @@ main {
 }
 
 #recs {
-    background: rgb(234, 93, 198);
+    background: rgb(255, 255, 255);
 }
 
 #item-section {
-    background: rgb(255, 123, 0);
+    background: rgb(205, 203, 201);
 }
 
 #lego-items {
